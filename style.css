@@ -22,10 +22,10 @@
     width: 998px;
     height: 582px;
     margin: 0 auto;
+    margin-top: 26px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 26px;
     margin-bottom: 44px;
 }
 .head-content h1{
@@ -49,6 +49,7 @@
     background-color: rgb(13,19,33);
     border: none;
     border-radius: 8px;
+    
 }
 .contact-btn a{
     text-decoration: none;
