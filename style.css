@@ -124,3 +124,64 @@ main{
 .inspire-video iframe{
     border-radius: 15px;
 }
+
+/* Target section start from here  */
+
+.target-banner{
+    margin: 110px 0px;
+}
+.target-div{
+    width: 1140px;
+    height: 460px;
+    margin: 0 auto;
+    border: 3px solid red;
+}
+.target-text h1{
+    font-size: 32px;
+    font-weight: 800px;
+    text-align: center;
+}
+.target-text p{
+    font-size: 16px;
+    font-weight: 400px;
+    text-align: center;
+    margin: 24px 0px;
+}
+.target-card{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.card-box{
+    padding: 30px;
+    border-radius: 10px;
+    background: rgba(255, 76, 30, 0.05);
+}
+
+/* Card box id  */
+
+#card-box2{
+    background: rgba(0, 76, 232, 0.05);
+}
+#card-box3{
+    background: rgba(255, 223, 0, 0.05);
+}
+
+.card-box h1{
+    font-size: 24px;
+    font-weight: 800;
+}
+.card-box p{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 20px 0px;
+}
+.target-btn{
+    border: none;
+    background-color: white;
+}
+.target-btn a{
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+}
