@@ -40,3 +40,55 @@
     border: none;
     border-radius: 8px;
 }
+
+/* Start body section from here  */
+
+main{
+    margin: 80px 0px;
+}
+
+.question-div{
+    text-align: center;
+}
+.question-div h1{
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.dev-div{
+    width: 1140px;
+    height: 1393px;
+    margin: 0 auto;
+    padding: 80px 97px;
+    background: rgba(13, 19, 33, 0.02);
+}
+
+.explaine-div{
+    margin: 48px 0px;
+}
+.div-box{
+    display: flex;
+    justify-content: space-between;
+    padding: 48px;
+    background-color: white;
+}
+.text-div{
+     width: 60%;
+}
+.answer-title{
+    font-size: 28px;
+    font-weight: 700;
+}
+.answer-text{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 16px 0px;
+}
+.learn-btn{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 12px 20px;
+    background-color: aliceblue;
+    margin-top: 16px;
+}
