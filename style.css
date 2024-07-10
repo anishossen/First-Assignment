@@ -40,6 +40,10 @@
     border: none;
     border-radius: 8px;
 }
+.contact-btn a{
+    text-decoration: none;
+    color: white;
+}
 
 /* Start body section from here  */
 
@@ -101,7 +105,6 @@ main{
     width: 1140px;
     height: 775px;
     margin: 0 auto;
-    border: 3px solid red;
 }
 .inspire-text h1{
     font-size: 32px;
@@ -134,7 +137,6 @@ main{
     width: 1140px;
     height: 460px;
     margin: 0 auto;
-    border: 3px solid red;
 }
 .target-text h1{
     font-size: 32px;
@@ -184,4 +186,87 @@ main{
     font-size: 16px;
     font-weight: 700;
     color: black;
+}
+
+/* Support box css Start here */
+
+.support-banner{
+    width: 1140px;
+    height: 313px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    background-color: rgba(0, 0,0,0.5);
+    background-image: url("assets/handshake.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+.support-text h1{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+}
+.support-text p{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(206, 204, 204);
+    margin: 25px 0px;
+}
+.input-btn{
+    display: flex;
+}
+.input-btn input{
+    width: 500px;
+    padding: 19px 20px;
+    border: none;
+    border-radius: 10px;
+}
+input::placeholder{
+    font-size: 17px;
+    color: rgb(177, 174, 174);
+}
+.input-btn button{
+    font-size: 20px;
+    font-weight: 700;
+    padding: 17px 20px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+/* Footer section style shits  */
+ .footer-box{
+    width: 100%;
+    background-color: rgba(13, 19, 33, 0.03);
+ }
+.foot-div{
+    width: 1140px;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.foot-div h2{
+    font-size: 20px;
+    font-weight: 700;
+}
+.icons{
+    font-size: 40px;
+}
+#facebook{
+    color: rgb(25, 54, 221);
+}
+#github{
+    color: rgb(22, 22, 20);
+}
+#linkedin{
+    color: rgb(17, 110, 250);
 }

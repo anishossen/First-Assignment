@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="style.css">
     <title>My First Assignment</title>
 </head>
@@ -13,7 +14,7 @@
             <h1>"In the future , I hope become a developer</h1>
             <p>Learn the basics of web development, the types of web development, 
             and the skills and tools you need to break into the field. </p>
-            <button class="contact-btn">Contact With me</button>
+            <button class="contact-btn"><a href="#Supportsection">Contact With Me</a></button>
         </div>
     </header>
     <main>
@@ -88,27 +89,50 @@
                     <div class="card-box">
                         <img src="assets/html.png" alt="">
                         <h1>HTML</h1>
-                        <P>HYPER TEXT MARKUP LANGUAGE</P>
+                        <P>HTML, a formatting system for displaying material retrieved over the internet. Each retrieval
+                        unit is known as a web page (from World Wide Web), and such pages frequently contain hypertext 
+                        links</P>
                         <button class="target-btn"><a href="#">Learn More</a></button>
                     </div>
                     <div id="card-box2" class="card-box">
                         <img src="assets/css.png" alt="">
                         <h1>HTML</h1>
-                        <P>HYPER TEXT MARKUP LANGUAGE</P>
+                        <P>This CSS tutorial series covers all the fundamentals of CSS, including the idea 
+                        of selectors, methods of setting colors and backgrounds, way of formatting fonts 
+                        and text, styling UI …</P>
                         <button class="target-btn"><a href="#">Learn More</a></button>
                     </div>
                     <div id="card-box3" class="card-box">
                         <img src="assets/js.png" alt="">
                         <h1>HTML</h1>
-                        <P>HYPER TEXT MARKUP LANGUAGE</P>
+                        <P>JavaScript, computer programming language that is a mainstay of web development,
+                        enabling the creation of complex features and interactivity in websites and web 
+                        applications, as well as other use cases</P>
                         <button class="target-btn"><a href="#">Learn More</a></button>
                     </div>
                 </div>
             </div>
         </section>
+        <section class="support-banner" id="Supportsection">
+                <div class="support-text">
+                    <h1>I Need Support</h1>
+                    <p>If you need any help then click on the submit button here stating your problem</p>
+                </div>
+                <div class="input-btn">
+                    <input type="text" placeholder="Suggest me any feedback for me">
+                    <button type="submit">Submit</button>
+            </div>
+        </section>
     </main>
-    <footer>
-
+    <footer class="footer-box">
+        <div class="foot-div">
+            <h2>An Open Commitment By Anis Hossen</h2>
+          <div class="icons">
+            <a href="https://www.facebook.com/"><i class='bx bxl-facebook-circle' id="facebook"></i></a>
+            <a href="https://github.com/"><i class='bx bxl-github' id="github"></i></a>
+            <a href="https://www.linkedin.com/"><i class='bx bxl-linkedin-square' id="linkedin" ></i></a>
+          </div>
+        </div>
     </footer>
 </body>
 </html>
